@@ -1,1 +1,45 @@
+/* Reset some default margin and padding */
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.profile, .skills {
+    margin-bottom: 20px;
+}
+
+.profile h2, .skills h2, .skill h3 {
+    font-size: 20px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #eee;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
 
